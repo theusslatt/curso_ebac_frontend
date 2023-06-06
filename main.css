@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: rgba(25, 45, 65, 0.829);
+    padding: 16px 0;
+    color: #f5f6fa ;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #b4b8c5;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 15px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esporte {
+    background-color: rgba(000, 255, 000, 0.2);
+}
+
+#esporte .articles article a{
+    background-color: rgba(000, 255, 000, 0.5);
+    color: #000;
+}
+
+#economia {
+    background-color: rgba(233, 205, 49, 0.507);
+}
+
+#economia .articles article a{
+    background-color: rgba(221, 79, 14, 0.600);
+    color: #000;
+}
+
+#entretenimento {
+    background-color: rgba(65, 108, 226, 0.795);
+}
+
+#entretenimento .articles article a{
+    background-color: rgba(9, 39, 138, 0.61);
+    color: #000;
+}
+
+#tecnologia {
+    background-color: rgba(152, 15, 170, 0.342);
+}
+
+#tecnologia .articles article a{
+    background-color: rgba(197, 12, 214, 0.5);
+    color: #000;
+}
