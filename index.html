@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exec Form</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Qual número é maior?</h1>
+        <form id="calcular">
+            <input type="number" id="first-number" required placeholder="Primeiro Número">
+            <input type="number" id="second-number" required placeholder="Segundo Número">
+            <button type="submit">Calcular</button>
+        </form>
+        <p class="success-message">
+            O formulário foi válido, pois o valor do segundo número é maior do que o primeiro.
+        </p>
+        <p class="error-message">
+            O formulário está inválido, pois o valor do segundo número é menor do que o primeiro.
+        </p>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
